@@ -1,15 +1,15 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { filterSlice } from './filter/filter.slice';
 
-import {
+// import {
   
-  FLUSH,
-  REHYDRATE,
-  PAUSE,
-  PERSIST,
-  PURGE,
-  REGISTER,
-} from 'redux-persist';
+//   FLUSH,
+//   REHYDRATE,
+//   PAUSE,
+//   PERSIST,
+//   PURGE,
+//   REGISTER,
+// } from 'redux-persist';
 import { contactsSlice } from './contact/contact.reducer';
 
 
