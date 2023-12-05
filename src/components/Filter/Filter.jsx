@@ -8,11 +8,11 @@ const Filter = () => {
   const dispatch = useDispatch();
   const filter = useSelector(selectContactsFilter);
 
-  const filterContacts = evt => {
-    // const filterValue = evt.target.value.toLowerCase().trim();
-    dispatch(filterChange(evt.target.value));
-  };
-  console.log(filter);
+  // const filterContacts = evt => {
+  //   // const filterValue = evt.target.value.toLowerCase().trim();
+  //   dispatch(filterChange(evt.target.value));
+  // };
+ 
   return (
     <SC.Wrapper>
       <SC.Label>

@@ -3,8 +3,7 @@ import * as SC from '../ContactList/ContactList.styled';
 
 
 import { selectContactsFilter, selectContactsList, selectIsLoading } from 'redux/selectors';
-import { deleteContact, fetchContacts } from 'redux/contactOperation/contactsOperation';
-import { useEffect } from 'react';
+import { deleteContact} from 'redux/contactOperation/contactsOperation';
 
 
 
